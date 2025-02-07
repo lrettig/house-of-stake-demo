@@ -21,9 +21,6 @@ Nothing implemented yet.
 
 ## Documentation
 - [NEAR SDK Documentation](https://docs.near.org/sdk/intro)
-- [Rust Programming Language Documentation](https://doc.rust-lang.org/book/)
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
 ## Additional Notes
 - This project is a work in progress and will be updated as we add more features and functionality.

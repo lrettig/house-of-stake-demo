@@ -1,0 +1,25 @@
+house-of-stake/
+├── contract/                  # Smart contract code
+│   ├── venear-contract/      # Main veNEAR contract
+│   ├── lockup-contract/      # NEAR lockup contract
+│   ├── voting-contract/      # Governance voting contract
+│   └── shared/               # Shared contract code
+├── frontend/                 # Next.js frontend application
+│   ├── app/                  # Next.js app directory
+│   ├── components/           # Reusable React components
+│   │   ├── escrow/          # Escrow-related components
+│   │   ├── governance/      # Governance/voting components
+│   │   └── shared/          # Shared components
+│   ├── lib/                  # Shared utilities and hooks
+│   │   ├── near/            # NEAR protocol interactions
+│   │   └── types/           # TypeScript types
+│   └── public/              # Static assets
+├── shared/                   # Shared code between frontend and contracts
+│   ├── types/               # Shared TypeScript types
+│   └── constants/           # Shared constants
+├── .gitignore
+├── .cursorrules             # Cursor AI rules
+├── LICENSE                  # MIT license
+├── plan.md                  # Project planning document
+├── README.md               # Project documentation
+└── package.json            # Root package.json for workspace 

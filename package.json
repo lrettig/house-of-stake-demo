@@ -1,0 +1,19 @@
+{
+  "name": "house-of-stake",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "yarn workspace frontend dev",
+    "build": "yarn workspace frontend build",
+    "start": "yarn workspace frontend start",
+    "test": "yarn workspaces run test",
+    "lint": "yarn workspaces run lint"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
