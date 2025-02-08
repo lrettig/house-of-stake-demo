@@ -5,6 +5,7 @@ venv/
 # Build outputs
 dist/
 build/
+.next/
 *.pyc
 
 # Environment files

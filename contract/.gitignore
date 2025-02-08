@@ -1,0 +1,12 @@
+# Build output
+target/
+res/*.wasm
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Rust
+**/*.rs.bk
+Cargo.lock 
