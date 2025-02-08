@@ -1,0 +1,41 @@
+{
+  "name": "@house-of-stake/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@near-wallet-selector/core": "^8.9.16",
+    "@near-wallet-selector/modal-ui": "^8.9.16",
+    "@near-wallet-selector/my-near-wallet": "^8.9.16",
+    "near-api-js": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^8.23.0",
+    "@typescript-eslint/parser": "^8.23.0",
+    "eslint": "^9.20.0",
+    "eslint-config-next": "^15.1.6"
+  },
+  "resolutions": {
+    "**/base-x": "^3.0.0",
+    "bs58/base-x": "^3.0.0",
+    "@near-js/utils/bs58/base-x": "^3.0.0",
+    "rimraf": "^4.4.1",
+    "glob": "^9.3.5",
+    "inflight": "^2.0.0"
+  }
+} 
